@@ -6,16 +6,22 @@
     <title>Refugio | Apadrinar</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2bfce8bc06.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
 </head>
 <body>
-    <header class="header">
-    <nav>
+    <header>
         <a href="../index.html">
-            <h1>
+            <div>
                 <img src="../assets/image/logo.png" alt="logo">
-            </h1>
+            </div>
         </a>
+    <nav>
             <ul>
                 <li><a href="../index.html">INICIO</a></li>
                 <li><a href="./adoptar.html">ADOPTAR</a></li>
@@ -28,7 +34,7 @@
     <main>
         <section>
             <div>
-                <h1 class="tituloApadrinar">Apadrinar</h1>
+                <h1>Apadrinar</h1>
                 <p>Involucráte y sé parte del cambio</p>
             </div>
             <div>
@@ -45,57 +51,60 @@
             <img src="../assets/image/apadrinar/under (1).png" alt="separador">
         </div>
         <section class="form">
-            <div class="datos">
-                <input type="text" placeholder="Nombre" required>
-                <input type="text" placeholder="Apellido" required>
-                <input type="text" placeholder="Telefono" required>
-                <input type="email" placeholder="Correo Electronico" required>
-            </div>
             <div>
-                <h3>¿Ya sos Madrina o Padrino?</h3>
-            </div>
-            <div>
-                <input type="radio" value="Si"> Si
-                <input type="radio" value="No"> No
-            </div>
-            <div>
-                <input type="text" placeholder="Nombre del/los Ahijado/s Actual/es">
-                <input type="text" placeholder="Nombre del Animaito que Quiero Apadrinar">
-            </div>
-            <div>
-                <h3>¿Cómo Querés Colaborar?</h3>
-            </div>
-            <div>
-                <input type="radio"> Cupon de Pago Facil/Rapipago
-                <input type="radio"> Transferencia
-                <input type="radio"> Deposito Bancario
-                <input type="radio"> Debito Automatico
-            </div>
-            <div>
-                <h3>Elegí el Monto</h3>
-            </div>
-            <div>
-                <select name="select_amount">
-                <option value="Otro Importe">Otro Importe</option>
-                <option value="20.00">20.00</option>
-                <option value="50.00">50.00</option>
-                <option value="100.00">100.00</option>
-                <option value="150.00">150.00</option>
-                <option value="200.00">200.00</option>
-                </select>
-            </div>
-            <div>
-                <input type="submit" name="submit" value="Enviar" class="btn_submit">
-            </div>
-            <div>
-                <input type="checkbox" value="Deseo Recibir Novedades Sobre el Refugio" name="subscription" checked> Quiero que me contacten para enviarme novedades sobre el refugio.
-            </div>
+                <form>
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="text" placeholder="Apellido" required>
+                    <input type="text" placeholder="Telefono" required>
+                    <input type="email" placeholder="Correo Electronico" required>
+                
+                    </div>
+                    <div>
+                        <h3>¿Ya sos Madrina o Padrino?</h3>
+                    </div>
+                    <div>
+                        <input type="radio" value="Si"> Si
+                        <input type="radio" value="No"> No
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Nombre del/los Ahijado/s Actual/es">
+                        <input type="text" placeholder="Nombre del Animaito que Quiero Apadrinar">
+                    </div>
+                    <div>
+                        <h3>¿Cómo Querés Colaborar?</h3>
+                    </div>
+                    <div>
+                        <input type="radio" value="pagoFacil"> Cupon de Pago Facil/Rapipago
+                        <input type="radio" value="transferencia"> Transferencia
+                        <input type="radio" value="depositoBancario"> Deposito Bancario
+                        <input type="radio" value="debitoAutomatico"> Debito Automatico
+                    </div>
+                    <div>
+                        <h3>Elegí el Monto</h3>
+                    </div>
+                    <div>
+                        <select name="select_amount">
+                        <option value="Otro Importe">Otro Importe</option>
+                        <option value="20.00">20.00</option>
+                        <option value="50.00">50.00</option>
+                        <option value="100.00">100.00</option>
+                        <option value="150.00">150.00</option>
+                        <option value="200.00">200.00</option>
+                        </select>
+                    </div>
+                    <div>
+                        <input type="submit" name="submit" value="Enviar" class="btn_submit">
+                    </div>
+                    <div>
+                        <input type="checkbox" value="Deseo Recibir Novedades Sobre el Refugio" name="subscription" checked> Quiero que me contacten para enviarme novedades sobre el refugio.
+                    </div>
+                </form>
         </section>
     </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-row">
-                <div class="footer-links">
+    <footer>
+        <div>
+            <div>
+                <div>
                     <h4>Ayudanos</h4>
                     <ul>
                         <li><a href="">Voluntarios</a></li>
@@ -103,16 +112,16 @@
                         <li><a href="">Productos</a></li>
                     </ul>
                 </div>
-                <div class="footer-links">
+                <div>
                     <h4>Animalitos</h4>
                     <ul>
                         <li><a href="">Adoptar</a></li>
                         <li><a href="">Apadrinar</a></li>
                     </ul>            
                 </div>
-                <div class="footer-links">
+                <div>
                     <h4>Seguinos</h4>
-                    <div class="social-link">
+                    <div>
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-instagram"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>

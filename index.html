@@ -3,117 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refugio | Biemvenido</title>
+    <title>Refugio | Bienvenido</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <script src="https://kit.fontawesome.com/2bfce8bc06.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-    <nav>
-        <a href="./index.html">
-            <h1>
-                <img src="./assets/image/logo.png" alt="logo">
-            </h1>
+
+                            <!--HEADER-->
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bgNavegacion">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+            <img class="logo" src="./assets/image/logo.png" alt="logo">
         </a>
-            <ul>
-                <li><a href="./index.html">INICIO</a></li>
-                <li><a href="./pages/adoptar.html">ADOPTAR</a></li>
-                <li><a href="./pages/apadrinar.html">APADRINAR</a></li>
-                <li><a href="./pages/quienes_somos.html">QUIENES SOMOS</a></li>
-                <li><a href="./pages/donar.html">DONAR</a></li>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index_respaldo.html">Adoptar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/apadrinar.html">Apadrinar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/donar.html">Donar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/quienes_somos.html">Quienes Somos</a>
+              </li>
             </ul>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <div>
-                <h2 class="tituloIndex">Ayudanos a Ayudarlos</h2>
-                <p>Enteráte como ayudarnos a seguir luchando por ellos, recordá que sólo dependemos de vos.</p>
-                <a href="./pages/donar.html"><img src="./assets/image/index/donar-heart.png" alt="donar"></a>
-            </div>
-        </section>
-        <section>
-            <div>
-                <div>
-                    <img src="./assets/image/index/adopcion-home.jpg" alt="adopcion-home" class="imagen">
-                </div>
-                <div>
-                    <h2>Adopta un animalito</h2>
-                    <p>Si estás pensando en sumar un integrante a tu familia, estás en el lugar indicado. Muchos perritos aguardan un hogar, animáte a adoptar con el corazón.</p>
-                    <br>
-                    <a href="./pages/adoptar.html" class="button">Adoptar</a>
-                </div>
-                <div>
-                    <img src="./assets/image/index/sponsor-home.jpg" alt="sponsor-home" class="imagen">
-                </div>
-                <div>
-                    <h2>Apadrina un animalito</h2>
-                    <p>Si considerás que tu tiempo libre es escaso como para ser voluntario, ésta es una fácil y práctica manera de colaborar con los animalitos.
-                    </p>
-                    <br>
-                    <a href="./pages/apadrinar.html" class="button">Apadrina</a>
-                </div>
-                <div>
-                    <img src="./assets/image/index/voluntarios-home.jpg" alt="voluntarios-home" class="imagen">
-                </div>
-                <div>
-                    <h2>¿Queres ser voluntario?</h2>
-                    <p>Si vivís en Buenos Aires, sumate a nuestro equipo de voluntarios, solo necesitás muchas ganas de ayudar a los animales y donar un mínimo de tu tiempo.</p>
-                    <br>
-                    <a href="./pages/voluintarios.html" class="button">Ser Voluntario</a>
-                </div>
-            </div>
-        </section>
-        <div class="separador">
-            <img src="./assets/image/index/under.png" alt="separador">
+          </div>
         </div>
+      </nav>
+</header>
+
+                            <!--MAIN-->
+
+<main class="container">
+
+                            <!--TITULO-->
+
     <section>
-        <div>
-            <h2>Merchandising Oficial del Refugio</h2>
-            <p>Una forma super original de ayudar a nuestros 400 animales es adquirir algunos de nuestros productos promocionales oficiales del refugio ¡Llevate al refu a tu casa!</p>
+        <div class="tituloIndex mt-4 mb-4 text-center">
+            <h1>Ayudanos a Ayudarlos</h1>
         </div>
-            <div><img src="./assets/image/index/product-img-bazar.jpg" alt="product-img-bazar" class="imagen"></div>
-            <a href="htm/productos=bazar.html" title="" class="tiendaLinks"><h3>Bazar</h3></a>
-        </div>
-            <div><img src="./assets/image/index/product-img-libreria.jpg" alt="product-img-libreria" class="imagen"></div>
-            <a href="htm/productos=bazar.html" title="" class="tiendaLinks"><h3>Libreria</h3></a>
-        </div>
-            <div><img src="./assets/image/index/product-img-indum.jpg" alt="product-img-indum" class="imagen"></div>
-            <a href="htm/productos=bazar.html" title="" class="tiendaLinks"><h3>Indumentaria</h3></a>
-        </div>
-            <div><img src="./assets/image/index/product-img-marroq.jpg" alt="product-img-marroq" class="imagen"></div>
-            <a href="htm/productos=bazar.html" title="" class="tiendaLinks"><h3>Marroquineria</h3></a>
-        </div>
-            <div><img src="./assets/image/index/product-img-varios.jpg" alt="product-img-varios" class="imagen"></div>
-            <a href="htm/productos=bazar.html" title="" class="tiendaLinks"><h3>Varios</h3></a>
     </section>
+
+                            <!--IMAGEN_1-->
+
+    <div class="container col-12 col-md p-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="img-fluid imgIndex" src="./assets/image/index/adopcion-index.jpg" alt="adopcionInicio">
+            </div>
+            <div class="col-12 col-md text-center fadeInRight animated">
+                <h2>Adopta un animalito</h2>
+                <p>Si estás pensando en sumar un integrante a tu familia, estás en el lugar indicado. Muchos perritos aguardan un hogar, animáte a adoptar con el corazón.</p>
+                    <a class="boton" href="./pages/adoptar.html"> Adoptar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="separador"></div>
+
+                            <!--IMAGEN_2-->
+
+    <div class="container col-12 col-md p-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="img-fluid imgIndex" src="./assets/image/index/apadrinar-index.jpg" alt="apadrinarInicio">
+            </div>
+            <div class="col-12 col-md text-center">
+                <h2>Adopta un animalito</h2>
+                <p>Si estás pensando en sumar un integrante a tu familia, estás en el lugar indicado. Muchos perritos aguardan un hogar, animáte a adoptar con el corazón.</p>
+                    <a class="boton" href="./pages/apadrinar.html"> Adoptar</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="separador"></div>
+
+                            <!--IMAGEN_3-->
+
+    <div class="container col-12 col-md p-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="img-fluid imgIndex" src="./assets/image/index/voluntarios-index.jpg" alt="voluntariosInicio">
+            </div>
+            <div class="col-12 col-md text-center">
+                <h2>Adopta un animalito</h2>
+                <p>Si estás pensando en sumar un integrante a tu familia, estás en el lugar indicado. Muchos perritos aguardan un hogar, animáte a adoptar con el corazón.</p>
+                    <a class="boton" href=""> Adoptar</a>
+            </div>
+        </div>
+    </div>
     
-    </main>
-    <footer class="footer">
+                            <!--DIVISOR-->
+
         <div class="container">
-            <div class="footer-row">
-                <div class="footer-links">
+            <img class="container-fluid" src="./assets/image/index/under.png" alt="separador">
+        </div>
+
+
+                            <!--TIENDA-->
+
+    <section class="container">
+        <div class="row imgTiendaIndex text-center">
+            <div class="col mb-2 mt-5"><img src="./assets/image/index/product-img-bazar.jpg" alt="tienda_bazar">
+                    <a class="linkStyle" href="htm/productos=bazar.html" title=""><h5>Bazar</h5></a>
+            </div>
+            <div class="col mb-2 mt-5"><img src="./assets/image/index/product-img-indum.jpg" alt="tienda_indumentaria">
+                <a class="linkStyle" href="htm/productos=bazar.html" title=""><h5>Indumentaria</h5></a>
+            </div>
+            <div class="col mb-2 mt-5"><img src="./assets/image/index/product-img-libreria.jpg" alt="tienda_libreria">
+                <a class="linkStyle" href="htm/productos=bazar.html" title=""><h5>Libreria</h5></a>
+            </div>
+            <div class="col mb-2 mt-5"><img src="./assets/image/index/product-img-varios.jpg" alt="tienda_varios">
+                <a class="linkStyle" href="htm/productos=bazar.html" title=""><h5>Varios</h5></a>
+            </div>
+        </div>
+        
+    </section>
+
+
+
+</main>
+
+                            <!--FOOTER-->
+
+
+    <footer>
+        <div>
+            <div>
+                <div>
                     <h4>Ayudanos</h4> 
-                    <ul">
-                        <li><a href="">Voluntarios</a></li>
-                        <li><a href="">Donaciones</a></li>
-                        <li><a href="">Productos</a></li>
+                    <ul>
+                        <li><a href="./pages/404_not_fount.html">Voluntarios</a></li>
+                        <li><a href="./pages/donar.html">Donaciones</a></li>
+                        <li><a href="./pages/404_not_fount.html">Productos</a></li>
                     </ul>
                 </div>
-                <div class="footer-links">
+                <div>
                     <h4>Animalitos</h4>
                     <ul>
                         <li><a href="">Adoptar</a></li>
                         <li><a href="">Apadrinar</a></li>
                     </ul>            
                 </div>
-                <div class="footer-links">
+                <div>
                     <h4>Seguinos</h4>
-                    <div class="social-link">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <div>
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-instagram"></i></a>
                         <a href=""><i class="fab fa-twitter"></i></a>
                         <a href=""><i class="fab fa-linkedin"></i></a>
@@ -121,5 +175,6 @@
                 </div>
             </div>
         </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
