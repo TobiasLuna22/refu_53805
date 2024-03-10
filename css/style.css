@@ -3,9 +3,11 @@
     padding: 0;
     color: #404040;
     font-size: 14px;
+    font-family: raleway, sans-serif; 
 }
 
-.logo{
+
+.logoHeader{
     width: 100px;
     height: 100px;
 }
@@ -16,6 +18,7 @@
 
 .separador{
     border-bottom: 1px dashed #CCCCCC;
+    
 }
 
 .boton{
@@ -24,7 +27,6 @@
     color: black;
     text-decoration: none;
     padding: 10px 15px 10px 15px;
-    box-shadow: gray 2px 2px 2px 0px;
     transition: 0.5s;
 }
 
@@ -34,22 +36,46 @@
 }
 
 .imgIndex{
-    border-radius: 15px;
+    border-radius: 8px;
     object-fit: cover;
     width: 500px;
-    box-shadow: 1px 5px #404040;
 }
 
 
-.linkStyle{
-    font-size: 20px;
+.linkStoreIndex{
     text-decoration: none;
     color: black;
 }
 
-imgTiendaIndex{
-    border-radius: 15px;
-    object-fit: cover;
-    width: 500px;
-    box-shadow: 1px 5px #404040;
+.footerContent{
+    border-right:  1px solid black;
+
+}
+
+.linkComoAyudar{
+    text-decoration: none;
+    color: #EA272E;
+}
+
+.comoAyudarIco{
+    color: #F0676C;
+}
+
+@media (max-width:992px){
+    .footerContent{
+        border-right: none;
+        margin-top: 20px;
+
+        }
+    }
+
+    footer{
+        background-color: #b3b3b3;
+    }
+
+@media (max-width:992px){
+    .youtubeVid{
+        width: 100%;
+        height: 200px;
+    }
 }
