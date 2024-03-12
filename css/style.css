@@ -1,27 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     color: #404040;
     font-size: 14px;
-    font-family: raleway, sans-serif; 
+    font-family: raleway, sans-serif;
 }
 
+/*HEADER*/
 
-.logoHeader{
+.logoHeader {
     width: 100px;
     height: 100px;
 }
 
-.bgNavegacion{
+.bgNavegacion {
     background-color: #FCF6DA;
 }
 
-.separador{
-    border-bottom: 1px dashed #CCCCCC;
-    
+/*IMAGENES/VIDEOS*/
+
+.imgIndex {
+    border-radius: 8px;
+    object-fit: cover;
+    width: 500px;
 }
 
-.boton{
+.imgApadrinar {
+
+    border-radius: 8px;
+    object-fit: cover;
+    height: 300px;
+}
+
+.comoAyudarIco {
+    color: #F0676C;
+}
+
+
+/*FORMULARIOS*/
+
+.form-control {
+    border: 1px solid #f49396;
+    font-weight: 300;
+    outline: none;
+    box-shadow: none;
+}
+
+/*BOTONES*/
+
+.boton {
     border: 1px solid #ff0000;
     border-radius: 4px;
     color: black;
@@ -30,52 +57,86 @@
     transition: 0.5s;
 }
 
-.boton:hover{
+.boton:hover {
     color: red;
     transform: scale(1.2);
 }
 
-.imgIndex{
-    border-radius: 8px;
-    object-fit: cover;
-    width: 500px;
+
+.btnSubmit {
+    width: 100%;
+    background-color: #ea272e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 5px;
+    border-bottom: 3px solid #841418;
+    box-shadow: none;
+    padding: 10px;
+    opacity: 0.9;
 }
 
+/*LINKS*/
 
-.linkStoreIndex{
+.links {
     text-decoration: none;
     color: black;
 }
 
-.footerContent{
-    border-right:  1px solid black;
 
-}
 
-.linkComoAyudar{
+.linkComoAyudar {
     text-decoration: none;
     color: #EA272E;
 }
 
-.comoAyudarIco{
-    color: #F0676C;
+/*SEPARADORES*/
+.separador {
+    border-bottom: 1px dashed #CCCCCC;
+
 }
 
-@media (max-width:992px){
-    .footerContent{
-        border-right: none;
-        margin-top: 20px;
+/*FOOTER*/
 
-        }
+.footerContent {
+    border-right: 1px solid black;
+
+}
+
+
+footer {
+    background-color: #b3b3b3;
+}
+
+/*MEDIAQUERIES*/
+
+@media (max-width:992px) {
+    * {
+        font-size: 16px;
     }
+}
 
-    footer{
-        background-color: #b3b3b3;
-    }
+/*IMAGENES/VIDEOS*/
 
-@media (max-width:992px){
-    .youtubeVid{
+@media (max-width:992px) {
+    .youtubeVid {
         width: 100%;
         height: 200px;
     }
 }
+
+/*FOOTER*/
+
+@media (max-width:992px) {
+    .footerContent {
+        border-right: none;
+        margin-top: 20px;
+
+    }
+}
+
+
+
+
+
