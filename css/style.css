@@ -1,142 +1,111 @@
-* {
-    margin: 0;
-    padding: 0;
-    color: #404040;
-    font-size: 14px;
-    font-family: raleway, sans-serif;
+footer {
+  background-color: #b3b3b3;
+}
+footer .footerContent {
+  border-right: 1px solid black;
 }
 
-/*HEADER*/
-
-.logoHeader {
-    width: 100px;
-    height: 100px;
+.form-control {
+  border: 1px solid #ea272e;
+  font-weight: 300;
+  outline: none;
+  box-shadow: none;
 }
 
 .bgNavegacion {
-    background-color: #FCF6DA;
+  background-color: #FCF6DA;
 }
-
-/*IMAGENES/VIDEOS*/
-
-.imgIndex {
-    border-radius: 8px;
-    object-fit: cover;
-    width: 500px;
+.bgNavegacion .logoHeader {
+  width: 100px;
+  height: 100px;
 }
 
 .imgApadrinar {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 300px;
+}
 
-    border-radius: 8px;
-    object-fit: cover;
-    height: 300px;
+.imgIndex {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 500px;
+}
+
+@media (max-width: 400px) {
+  * {
+    font-size: 16px;
+  }
+}
+/*IMAGENES/VIDEOS*/
+@media (max-width: 400px) {
+  .youtubeVid {
+    width: 100%;
+    height: 200px;
+  }
+  .imgIndex {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*FOOTER*/
+@media (max-width: 400px) {
+  .footerContent {
+    border-right: none;
+    margin-top: 20px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: #404040;
+  font-size: 14px;
+  font-family: raleway, sans-serif;
+}
+
+.boton {
+  border: 1px solid #ea272e;
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  transition: 0.5s;
+}
+.botonhover {
+  color: #ea272e;
+  transform: scale(1.2);
+}
+
+.btnSubmit {
+  width: 100%;
+  background-color: #ea272e;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-top: 5px;
+  border-bottom: 3px solid #841418;
+  box-shadow: none;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+.separador {
+  border-bottom: 1px dashed #CCCCCC;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+.linkComoAyudar {
+  text-decoration: none;
+  color: #F0676C;
 }
 
 .comoAyudarIco {
-    color: #F0676C;
+  color: #F0676C;
 }
 
-
-/*FORMULARIOS*/
-
-.form-control {
-    border: 1px solid #f49396;
-    font-weight: 300;
-    outline: none;
-    box-shadow: none;
-}
-
-/*BOTONES*/
-
-.boton {
-    border: 1px solid #ff0000;
-    border-radius: 4px;
-    color: black;
-    text-decoration: none;
-    padding: 10px 15px 10px 15px;
-    transition: 0.5s;
-}
-
-.boton:hover {
-    color: red;
-    transform: scale(1.2);
-}
-
-
-.btnSubmit {
-    width: 100%;
-    background-color: #ea272e;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 3px;
-    margin-top: 5px;
-    border-bottom: 3px solid #841418;
-    box-shadow: none;
-    padding: 10px;
-    opacity: 0.9;
-}
-
-/*LINKS*/
-
-.links {
-    text-decoration: none;
-    color: black;
-}
-
-
-
-.linkComoAyudar {
-    text-decoration: none;
-    color: #EA272E;
-}
-
-/*SEPARADORES*/
-.separador {
-    border-bottom: 1px dashed #CCCCCC;
-
-}
-
-/*FOOTER*/
-
-.footerContent {
-    border-right: 1px solid black;
-
-}
-
-
-footer {
-    background-color: #b3b3b3;
-}
-
-/*MEDIAQUERIES*/
-
-@media (max-width:992px) {
-    * {
-        font-size: 16px;
-    }
-}
-
-/*IMAGENES/VIDEOS*/
-
-@media (max-width:992px) {
-    .youtubeVid {
-        width: 100%;
-        height: 200px;
-    }
-}
-
-/*FOOTER*/
-
-@media (max-width:992px) {
-    .footerContent {
-        border-right: none;
-        margin-top: 20px;
-
-    }
-}
-
-
-
-
-
+/*# sourceMappingURL=style.css.map */

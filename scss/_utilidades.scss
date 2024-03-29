@@ -1,0 +1,49 @@
+.boton {
+    border: 1px solid $color-utilidades-bordes;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    padding: $t-10px $t-15px $t-10px $t-15px;
+    transition: 0.5s;
+    &hover {
+        color: $color-utilidades-bordes;
+        transform: scale(1.2);
+    }
+}
+
+.btnSubmit {
+    width: $t-100por;
+    background-color: $color-utilidades-bordes ;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 5px;
+    border-bottom: 3px solid $color-sombras;
+    box-shadow: none;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.separador {
+    border-bottom: 1px dashed $color-separador;
+
+}
+
+.links {
+    text-decoration: none;
+    color: $color-links;
+}
+
+
+
+.linkComoAyudar {
+    text-decoration: none;
+    color: $color-utilidades-icon;
+}
+
+
+.comoAyudarIco {
+    color: $color-utilidades-icon;
+}
+

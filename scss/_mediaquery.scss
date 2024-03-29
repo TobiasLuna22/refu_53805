@@ -1,0 +1,29 @@
+@media (max-width:$t-pantalla-sm) {
+    * {
+        font-size: $font-size-sm;
+    }
+}
+
+/*IMAGENES/VIDEOS*/
+
+@media (max-width:$t-pantalla-sm) {
+    .youtubeVid {
+        width: $t-100por;
+        height: $t-200px;
+    }
+
+    .imgIndex {
+        width: $t-100por;
+        height: $t-100por;
+    }
+}
+
+/*FOOTER*/
+
+@media (max-width: $t-pantalla-sm) {
+    .footerContent {
+        border-right: none;
+        margin-top: 20px;
+
+    }
+}
