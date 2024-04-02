@@ -1,8 +1,14 @@
+/*RESET*/
+
 @media (max-width:$t-pantalla-sm) {
     * {
         font-size: $font-size-sm;
     }
 }
+
+/*DIVISOR*/
+
+@media (max-width:$t-pantalla-sm) {}
 
 /*IMAGENES/VIDEOS*/
 
@@ -21,9 +27,10 @@
 /*FOOTER*/
 
 @media (max-width: $t-pantalla-sm) {
-    .footerContent {
-        border-right: none;
-        margin-top: 20px;
-
+    footer {
+        .footerContent {
+            margin-top: 20px;
+            border-right: 1px solid blue;
+        }
     }
 }

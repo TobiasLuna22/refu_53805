@@ -1,44 +1,17 @@
-footer {
-  background-color: #b3b3b3;
-}
-footer .footerContent {
-  border-right: 1px solid black;
-}
-
-.form-control {
-  border: 1px solid #ea272e;
-  font-weight: 300;
-  outline: none;
-  box-shadow: none;
-}
-
-.bgNavegacion {
-  background-color: #FCF6DA;
-}
-.bgNavegacion .logoHeader {
-  width: 100px;
-  height: 100px;
-}
-
-.imgApadrinar {
-  border-radius: 8px;
-  object-fit: cover;
-  height: 300px;
-}
-
-.imgIndex {
-  border-radius: 8px;
-  object-fit: cover;
-  width: 500px;
-}
-
-@media (max-width: 400px) {
+@charset "UTF-8";
+/*TAMAÑOS Y PANTALLA*/
+/*COLORES PRINCIPALES*/
+/*TEXTO*/
+/*Utilidades*/
+/*RESET*/
+@media (max-width: 420px) {
   * {
     font-size: 16px;
   }
 }
+/*DIVISOR*/
 /*IMAGENES/VIDEOS*/
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .youtubeVid {
     width: 100%;
     height: 200px;
@@ -49,10 +22,10 @@ footer .footerContent {
   }
 }
 /*FOOTER*/
-@media (max-width: 400px) {
-  .footerContent {
-    border-right: none;
+@media (max-width: 420px) {
+  footer .footerContent {
     margin-top: 20px;
+    border-right: 1px solid blue;
   }
 }
 * {
@@ -71,7 +44,7 @@ footer .footerContent {
   padding: 10px 15px 10px 15px;
   transition: 0.5s;
 }
-.botonhover {
+.boton.boton:hover {
   color: #ea272e;
   transform: scale(1.2);
 }
@@ -101,11 +74,63 @@ footer .footerContent {
 
 .linkComoAyudar {
   text-decoration: none;
-  color: #F0676C;
+  color: #ea272e;
 }
 
 .comoAyudarIco {
   color: #F0676C;
+}
+
+.titulo {
+  color: black;
+  font-size: 40px;
+}
+
+.subtitulo {
+  color: rgb(79, 79, 79);
+  font-size: 29px;
+}
+
+footer {
+  background-color: #b3b3b3;
+}
+footer .footerContent {
+  border-right: 1px solid black;
+}
+footer .footerContent .fab {
+  margin: 0px 0px 0px 10px;
+}
+
+.form-control {
+  border: 1px solid #ea272e;
+  font-weight: 300;
+  outline: none;
+  box-shadow: none;
+}
+
+.bgNavegacion {
+  background-color: #FCF6DA;
+}
+.bgNavegacion .logoHeader {
+  width: 100px;
+  height: 100px;
+}
+
+.imgApadrinar {
+  border-radius: 8px;
+  object-fit: cover;
+  height: 300px;
+}
+
+.imgIndex {
+  border-radius: 8px;
+  object-fit: cover;
+  width: 500px;
+}
+
+.imgTienda {
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,19 +1,25 @@
 .boton {
-    border: 1px solid $color-utilidades-bordes;
+    border: 1px solid $color-bordes;
     border-radius: 4px;
     color: black;
     text-decoration: none;
     padding: $t-10px $t-15px $t-10px $t-15px;
     transition: 0.5s;
-    &hover {
-        color: $color-utilidades-bordes;
+
+    &.boton:hover {
+        color: $color-bordes;
         transform: scale(1.2);
     }
+
+
 }
+
+
+
 
 .btnSubmit {
     width: $t-100por;
-    background-color: $color-utilidades-bordes ;
+    background-color: $color-bordes ;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
@@ -39,11 +45,10 @@
 
 .linkComoAyudar {
     text-decoration: none;
-    color: $color-utilidades-icon;
+    color: $color-bordes;
 }
 
 
 .comoAyudarIco {
-    color: $color-utilidades-icon;
+    color: $color-icon;
 }
-
