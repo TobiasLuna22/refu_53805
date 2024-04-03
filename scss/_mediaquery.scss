@@ -1,36 +1,31 @@
-/*RESET*/
-
 @media (max-width:$t-pantalla-sm) {
     * {
         font-size: $font-size-sm;
-    }
-}
 
-/*DIVISOR*/
-
-@media (max-width:$t-pantalla-sm) {}
-
-/*IMAGENES/VIDEOS*/
-
-@media (max-width:$t-pantalla-sm) {
-    .youtubeVid {
-        width: $t-100por;
-        height: $t-200px;
-    }
-
-    .imgIndex {
-        width: $t-100por;
-        height: $t-100por;
-    }
-}
-
-/*FOOTER*/
-
-@media (max-width: $t-pantalla-sm) {
-    footer {
-        .footerContent {
-            margin-top: 20px;
-            border-right: 1px solid blue;
+        .titulo {
+            font-size: 28px;
         }
+
+        .subtitulo {
+            font-size: 24px;
+        }
+
+        .youtubeVid {
+            width: $t-100por;
+            height: $t-200px;
+        }
+
+        .imgIndex {
+            width: $t-100por;
+            height: $t-100por;
+        }
+
+        footer {
+            .footerContent {
+                border-right: none;
+                margin-top: 20px;
+            }
+        }
+
     }
 }

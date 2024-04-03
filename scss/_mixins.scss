@@ -1,4 +1,4 @@
-@mixin titulos ($color, $font){
+@mixin text ($color, $font){
     color: $color;
     font-size: $font;
 }

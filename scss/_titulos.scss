@@ -1,8 +1,8 @@
 
 .titulo {
-    @include titulos ($color-titulo, $font-size-titulos)
+    @include text ($color-titulo, $font-size-titulos)
 }
 
 .subtitulo {
-    @include titulos ($color-subtitulo, $font-size-subtitulos)
+    @include text ($color-subtitulo, $font-size-subtitulos)
 }

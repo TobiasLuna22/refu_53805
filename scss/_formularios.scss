@@ -1,5 +1,5 @@
 .form-control {
-    border: 1px solid $color-bordes;
+    border: 1px solid map-get($color-util, color-bordes );
     font-weight: 300;
     outline: none;
     box-shadow: none;

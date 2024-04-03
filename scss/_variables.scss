@@ -1,9 +1,10 @@
-/*TAMAÑOS Y PANTALLA*/
+/*TAMAÑOS Y PANTALLA*/ 
+
+$font-size-header: 25px;
 $font-size-titulos: 40px;
 $font-size-subtitulos:29px;
-$font-size: 14px;
-$font-size-sm: 16px;
-
+$font-size: 16px;
+$font-size-sm: 18px;
 
 $t-pantalla-sm: 420px;
 $t-100por: 100%;
@@ -15,7 +16,7 @@ $t-15px: 15px;
 $t-10px: 10px;
 $t-5px: 5px;
 
-/*COLORES PRINCIPALES*/
+/*COLORES*/
 
 $color-principal: #FCF6DA;
 
@@ -30,7 +31,11 @@ $color-footer: #b3b3b3;
 
 
 /*Utilidades*/
-$color-bordes: #ea272e;
-$color-icon: #F0676C;
-$color-sombras: #841418;
-$color-separador: #CCCCCC;
+$color-util:(
+
+color-bordes: #ea272e,
+color-icon: #f0676c,
+color-sombras: #841418,
+color-separador: #CCCCCC,
+
+);
