@@ -1,7 +1,9 @@
 footer {
     background-color: $color-footer;
+
     .footerContent {
         border-right: 1px solid black;
+        color: $color-links;
         .fab{
             margin: 0px 0px 0px 10px;
         }

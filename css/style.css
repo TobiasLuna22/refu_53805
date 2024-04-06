@@ -67,10 +67,11 @@
 }
 
 footer {
-  background-color: #b3b3b3;
+  background-color: #333333;
 }
 footer .footerContent {
   border-right: 1px solid black;
+  color: black;
 }
 footer .footerContent .fab {
   margin: 0px 0px 0px 10px;
