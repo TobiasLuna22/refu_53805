@@ -112,11 +112,12 @@ footer .footerContent .fab {
 .contenedor {
   background-image: url(../assets/image/index/tour-bg.png);
   width: 100%;
+  text-align: end;
 }
 
 .corazonAnim {
   animation: beat 0.9s infinite;
-  width: 250px;
+  width: 240px;
 }
 
 @keyframes beat {
@@ -126,8 +127,8 @@ footer .footerContent .fab {
   20% {
     transform: scale(1.15);
   }
-  40% {
-    transform: scale(1.4);
+  35% {
+    transform: scale(1.3);
   }
 }
 @media (max-width: 420px) {
@@ -151,6 +152,13 @@ footer .footerContent .fab {
   * footer .footerContent {
     border-right: none;
     margin-top: 20px;
+  }
+  * .contenedor {
+    text-align: center;
+  }
+  * .contenedor .corazonAnim {
+    margin-top: 20px;
+    width: 60%;
   }
 }
 
