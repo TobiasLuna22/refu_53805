@@ -114,8 +114,7 @@ footer .footerContent .fab {
   width: 100%;
   text-align: end;
 }
-
-.corazonAnim {
+.contenedor .corazonAnim {
   animation: beat 0.9s infinite;
   width: 240px;
 }
