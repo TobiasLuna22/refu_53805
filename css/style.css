@@ -92,6 +92,10 @@ footer .footerContent .fab {
   height: 100px;
 }
 
+.colorHeader {
+  color: red;
+}
+
 .imgApadrinar {
   border-radius: 8px;
   object-fit: cover;
@@ -117,6 +121,11 @@ footer .footerContent .fab {
 .contenedor .corazonAnim {
   animation: beat 0.9s infinite;
   width: 240px;
+}
+
+.carousel {
+  object-fit: contain;
+  width: 50vh;
 }
 
 @keyframes beat {
