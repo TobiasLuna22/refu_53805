@@ -1,87 +1,273 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refugio | Adoptar</title>
-    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-</head>
-<body>
-    <header class="header">
-    <nav>
-        <a href="../index.html">
-            <h1>
-                <img src="../assets/image/logo.png" alt="logo">
-            </h1>
-        </a>
-            <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="./adoptar.html">ADOPTAR</a></li>
-                <li><a href="./apadrinar.html">APADRINAR</a></li>
-                <li><a href="./quienes_somos.html">QUIENES SOMOS</a></li>
-                <li><a href="./donar.html">DONAR</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="">
-            <h1>Adoptar</h1>
-            <p>Suma un integrante a tu familia</p>
-        
-            <p>Ellos son algunos de nuestros amados Francisquitos. Vidas rescatadas de la indiferencia, el desamor y el maltrato. Lucharon para sobreponerse a las adversidades soñando que algún día llegue su tan anhelada familia, ¿será hoy el día? Los refugios son lugares de paso ya que el verdadero hogar para un animalito, se conforma de a una familia que los contenga y los ame para toda su vida.
 
-            Todos los Francisquitos están esperando que su deseo se haga realidad. Si estás pensando en incorporar a un nuevo miembro en tu familia, si la historia de alguno de los francisquitos te tocó el alma, si alguno de ellos te enamoró, no dudes en escribirnos a adopciones@refugiosfa.org (también podes hacerlo a través del formulario de contacto para consultas) para darle la oportunidad de cumplir su sueño y el tuyo también.
-            
-            Adoptar es un acto desinteresado de amor, adoptá con el corazón</p>
-            <ul>
-                <li>Las adopciones solamente se realizan dentro de la ciudad de Buenos Aires, por razones de seguimiento.</li>
-                <li>Todos los perritos son llevados a domicilio por el área de adopciones a su nuevo hogar. Se entregan con un contrato de adopción que se firma el mismo día, con compromiso de seguimiento y chapitas identificadoras. Las mismas deben ser portadas por el animal obligatoriamente y su adoptante debe hacerse responsable por ello.</li>
-                <li>En el caso que el animal no se encuentre esterilizado, es compromiso del adoptante, sea macho o hembra, esterilizar al animal. Es obligatorio que los cachorros sean esterilizados antes del primer celo, las hembras antes de los 6 meses y los machos antes de los 8 meses.</li>
-                <li>Adoptar a un perro es un acto serio e intentamos concientizar a las personas sobre ello y es para toda la vida. Si no está seguro de poder brindarle una vida como merece durante al menos 10 o 12 años, mejor no adopte.</li>
-                <li>En caso que el/la adoptado/a no logre adaptarse correctamente al hogar volverá al Refugio. Los datos suministrados por el solicitante son confidenciales y de acceso restringido, para uso exclusivo de la Protectora de Animales San Francisco de Asis y no serán transferidos a terceros bajo ninguna circunstancia.</li>                    <li>Los cachorros hacen pis, pueden romper cosas en la casa y llorar de noche, o sea, conllevan más trabajo, ¿está listo para encararlo?.</li>
-                </ul>
-            <div class="formularioAdoptar">
-                <form>
-                    <input type="text" value="nombre" placeholder="Nombre">
-                    <input type="text" value="apellido" placeholder="Apellido">
-                    <input type="text" value="telefono" placeholder="Telefono">
-                    <input type="email" value="correoElectronico" placeholder="Correo Electronico">
-                    <input type="text" value="other" placeholder="Otros Motivos">
-                    <input type="submit" value="submit" placeholder="Enviar">
-                </form>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-row">
-                <div class="footer-links">
-                    <h4>Ayudanos</h4>
-                    <ul>
-                        <li><a href="">Voluntarios</a></li>
-                        <li><a href="">Donaciones</a></li>
-                        <li><a href="">Productos</a></li>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="keywords"
+    content="Refugio de animales, adopción de mascotas, cuidado de animales abandonados, rescate animal, hogar para perros y gatos necesitados, amor animal, apoyo a mascotas sin hogar">
+<meta name="description" content="Si queres ampliar tu familia, aca podras adoptarlos">
+
+    <title>Refugio | Adoptar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://fonts.cdnfonts.com/css/raleway-5" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/2bfce8bc06.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--HEADER-->
+
+    <!--LOGO-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bgNavegacion">
+            <div class="container-fluid col-12 col-lg-8 text-center">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logoHeader" src="../assets/image/logo.png" alt="logo" />
+                </a>
+
+                <!--NAVBAR-->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index_respaldo.html">Adoptar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/apadrinar.html">Apadrinar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/donar.html">Donar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/quienes_somos.html">Quienes Somos</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="footer-links">
-                    <h4>Animalitos</h4>
-                    <ul>
-                        <li><a href="">Adoptar</a></li>
-                        <li><a href="">Apadrinar</a></li>
-                    </ul>            
+            </div>
+        </nav>
+    </header>
+
+    <!--MAIN-->
+
+
+    <main class="container">
+        <div class="container-fluid">
+
+            <!--TITULO-->
+
+            <section>
+                <div class="container-fluid text-center my-5">
+                    <h1>Adoptar</h1>
+                    <p class="h4">Ellos buscan un hogar</p>
                 </div>
-                <div class="footer-links">
-                    <h4>Seguinos</h4>
-                    <div class="social-link">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-linkedin"></i></a>
+            </section>
+
+            <!--SEPARADOR-->
+
+            <div class="container">
+                <img class="container-fluid " src="../assets/image/index/under.png" alt="separador" />
+            </div>
+
+            <!--PRIMEROS PARRAFOS-->
+
+            <section class="container">
+                <p>Ellos son algunos de nuestros amados Francisquitos. Vidas rescatadas de la indiferencia, el
+                    desamor y el maltrato. Lucharon para sobreponerse a las adversidades soñando que algún día
+                    llegue su tan anhelada familia, ¿será hoy el día? Los refugios son lugares de paso ya que el
+                    verdadero hogar para un animalito, se conforma de a una familia que los contenga y los ame para
+                    toda su vida.</p>
+
+                <p>Todos los Francisquitos están esperando que su deseo se haga realidad. Si estás pensando en
+                    incorporar a un nuevo miembro en tu familia, si la historia de alguno de los francisquitos te
+                    tocó el alma, si alguno de ellos te enamoró, no dudes en escribirnos a adopciones@refugiosfa.org
+                    (también podes hacerlo a través del formulario de contacto para consultas) para darle la
+                    oportunidad de cumplir su sueño y el tuyo también.</p>
+
+                </p>Adoptar es un acto desinteresado de amor, adoptá con el corazón.</p>
+        </div>
+
+        <!--ITEMS Y FORMULARIOS-->
+
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-xs-12 col-md-6">
+                    <ul>
+                        <li class="my-2">Las adopciones solamente se realizan dentro de la ciudad de Buenos
+                            Aires, por
+                            razones de
+                            seguimiento.</li>
+                        <li class="my-2">Todos los perritos son llevados a domicilio por el área de adopciones a
+                            su nuevo
+                            hogar.
+                            Se
+                            entregan con un contrato de adopción que se firma el mismo día, con compromiso de
+                            seguimiento y chapitas identificadoras. Las mismas deben ser portadas por el animal
+                            obligatoriamente y su adoptante debe hacerse responsable por ello.
+                        </li>
+                        <li class="my-2">En el caso que el animal no se encuentre esterilizado, es compromiso
+                            del adoptante,
+                            sea
+                            macho o hembra, esterilizar al animal. Es obligatorio que los cachorros sean
+                            esterilizados
+                            antes del primer celo, las hembras antes de los 6 meses y los machos antes de los 8
+                            meses.
+                        </li>
+                        <li class="my-2">Adoptar a un perro es un acto serio e intentamos concientizar a las
+                            personas sobre
+                            ello
+                            y es
+                            para toda la vida. Si no está seguro de poder brindarle una vida como merece durante
+                            al
+                            menos 10 o 12 años, mejor no adopte.</li>
+                        <li class="my-2">En caso que el/la adoptado/a no logre adaptarse correctamente al hogar
+                            volverá al
+                            Refugio.
+                            Los datos suministrados por el solicitante son confidenciales y de acceso
+                            restringido,
+                            para
+                            uso exclusivo de la Protectora de Animales San Francisco de Asis y no serán
+                            transferidos
+                            a
+                            terceros bajo ninguna circunstancia.</li>
+                        <li class="my-2">Los cachorros hacen pis, pueden romper cosas en la casa y llorar de
+                            noche, o sea,
+                            conllevan
+                            más trabajo, ¿está listo para encararlo?</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="container">
+                        <form class="row">
+                            <div class="col-xs-12 col-md-6 my-2">
+                                <input class="form-control" type="text" placeholder="Nombre">
+                            </div>
+                            <div class="col-xs-12 col-md-6 my-2">
+                                <input class="form-control" type="text" placeholder="Apellido">
+                            </div>
+                            <div class="col-xs-12 col-md-6 my-2">
+                                <input class="form-control" type="tel" placeholder="Telefono">
+                            </div>
+                            <div class="col-xs-12 col-md-6 my-2">
+                                <input class="form-control" type="email" placeholder="Email">
+                            </div>
+                            <div class="mt-4">
+                                <h3 class="h5">¿Motivo del contacto?</h3>
+                            </div>
+                            <div class="my-3">
+                                <div class="col-xs-12 col-md-12">
+                                    <input type="radio" id="radio1" value="Quiero adoptar" name="contactMotive">
+                                    Quiero Adoptar
+                                </div>
+                                <div class="col-xs-12 col-md-12">
+                                    <input type="radio" id="radio2" value="Quiero Transitar" name="contactMotive">
+                                    Quiero Transitar
+                                </div>
+                                <div class="col-xs-12 col-md-12">
+                                    <input type="radio" id="radio3" value="Otro Motivo" name="contactMotive">
+                                    Otro Motivo
+                                </div>
+                            </div>
+                            <div class="col-xs-12">
+                                <input class="form-control" type="textarea" name="message" id="message"
+                                    placeholder="Otros motivos...">
+                            </div>
+                            <div class="col-xs-12 mt-2">
+                                <input type="submit" name="submit" class="btn btnSubmit" value="Enviar">
+                            </div>
+                            <div class="col-sm-12">
+                                <input type="checkbox" id="checkbox" value="Deseo Recibir Novedades Sobre El Refugio"
+                                    name="subscription" checked>
+                                Quiero que me contacten para enviarme novedades sobre el refugio.
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
+
+        <!--SEPARADOR-->
+        <div class="container">
+            <img class="container-fluid" src="../assets/image/index/under.png" alt="separador" />
+        </div>
+
+
+        </section>
+        </div>
+    </main>
+
+
+
+
+
+    <!--FOOTER-->
+
+    <footer class="mt-4">
+        <div class="container-fluid">
+            <div class="row p-5 text-white">
+                <div class="col-12 col-md-6 col-lg-3 footerContent">
+                    <p class="h3 text-white">Refugio San Francisco</p>
+                </div>
+
+                <!--FOOTER ANIMALITOS-->
+
+                <div class="col-12 col-md-6 col-lg-3 footerContent">
+                    <p class="h4 mb-3 text-white">Animalitos</p>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none h6" href="./pages/adoptar.html">Adoptar</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none h6" href="./pages/apadrinar.html">Apadrinar</a>
+                    </div>
+                </div>
+
+                <!--FOOTER AYUDANOS-->
+
+                <div class="col-12 col-md-6 col-lg-3 footerContent">
+                    <p class="h4 mb-3 text-white">Ayudanos</p>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none h6" href="./pages/404_not_found.html">Voluntarios</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none h6" href="./pages/donar.html">Donaciones</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-white text-decoration-none h6" href="./pages/404_not_found.html">Productos</a>
+                    </div>
+                </div>
+
+                <!--FOOTER CONTACTO-->
+
+                <div class="col-12 col-md-6 col-lg-3 footerContent">
+                    <p class="h4 mb-3 text-white">Contactanos</p>
+                    <div>
+                        <a href="./pages/404_not_found.html" title="Facebook"><i
+                                class="fab fa-facebook-f text-white h6 fbIcon"></i></a>
+                        <a href="./pages/404_not_found.html" title="Instagram"><i
+                                class="fab fa-instagram text-white h6"></i></a>
+                        <a href="./pages/404_not_found.html" title="Twitter"><i
+                                class="fab fa-twitter text-white h6"></i></a>
+                        <a href="./pages/404_not_found.html" title="Linkedin"><i
+                                class="fab fa-linkedin text-white h6"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

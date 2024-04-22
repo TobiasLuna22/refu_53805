@@ -1,0 +1,41 @@
+@media (max-width:$t-pantalla-sm) {
+    * {
+        font-size: $font-size-sm;
+
+        .titulo {
+            font-size: 28px;
+        }
+
+        .subtitulo {
+            font-size: 24px;
+        }
+
+        .youtubeVid {
+            width: $t-100por;
+            height: $t-200px;
+        }
+
+        .imgIndex {
+            width: $t-100por;
+            height: $t-100por;
+        }
+
+        footer {
+            .footerContent {
+                border-right: none;
+                margin-top: 20px;
+            }
+        }
+
+        .contenedor{
+            text-align: center;
+            .corazonAnim{
+                margin-top: 20px;
+                width: 60%
+            }
+        }
+
+    }
+}
+
+

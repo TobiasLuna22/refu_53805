@@ -1,12 +1,31 @@
 {
   "extends": [
     "development"
+    
   ],
   "hints": {
-    "axe/name-role-value": [
+    "compat-api/css": [
       "default",
       {
-        "link-name": "off"
+        "ignore": [
+          "-webkit-overflow-scrolling",
+          "-webkit-text-size-adjust",
+          "text-decoration-skip-ink"
+        ]
+      }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "iframe[allow]"
+        ]
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
       }
     ]
   }

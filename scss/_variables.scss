@@ -1,0 +1,41 @@
+/*TAMAÑOS Y PANTALLA*/ 
+
+$font-size-header: 25px;
+$font-size-titulos: 40px;
+$font-size-subtitulos:29px;
+$font-size: 16px;
+$font-size-sm: 18px;
+
+$t-pantalla-sm: 420px;
+$t-100por: 100%;
+$t-200px: 200px;
+$t-100px: 100px;
+$t-50px: 50px;
+$t-20px: 20px;
+$t-15px: 15px;
+$t-10px: 10px;
+$t-5px: 5px;
+
+/*COLORES*/
+
+$color-principal: #FCF6DA;
+
+/*TEXTO*/
+
+$color-titulo: black;
+$color-subtitulo: rgb(79, 79, 79);
+$color-texto: #404040;
+$color-links: black;
+$color-footer: #333333;
+
+
+
+/*Utilidades*/
+$color-util:(
+
+color-bordes: #ea272e,
+color-icon: #f0676c,
+color-sombras: #841418,
+color-separador: #CCCCCC,
+
+);

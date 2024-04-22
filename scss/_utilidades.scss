@@ -1,0 +1,51 @@
+.boton {
+    border: 1px solid map-get($color-util, color-bordes );
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    padding: $t-10px $t-15px $t-10px $t-15px;
+    transition: 0.5s;
+
+    &.boton:hover {
+        color: map-get($color-util, color-bordes );
+        transform: scale(1.2);
+    }
+
+
+}
+
+.btnSubmit {
+    width: $t-100por;
+    background-color: map-get($color-util, color-bordes );
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-top: 5px;
+    border-bottom: 3px solid map-get($color-util, color-sombras );
+    box-shadow: none;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.separador {
+    border-bottom: 1px dashed map-get($color-util, color-separador );
+
+}
+
+.links {
+    text-decoration: none;
+    color: $color-links;
+}
+
+
+
+.linkComoAyudar {
+    text-decoration: none;
+    color: map-get($color-util, color-bordes );
+}
+
+
+.comoAyudarIco {
+    color: map-get($color-util, color-icon );
+}

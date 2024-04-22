@@ -1,0 +1,8 @@
+
+.titulo {
+    @include text ($color-titulo, $font-size-titulos)
+}
+
+.subtitulo {
+    @include text ($color-subtitulo, $font-size-subtitulos)
+}
